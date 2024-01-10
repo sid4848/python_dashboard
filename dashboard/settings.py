@@ -143,8 +143,7 @@ AUTHENTICATION_BACKENDS = [
 # At the end of file. add these lines
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
-MEDIA_URLS ='/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATICFILES_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Also Make aure To set allowed_hosts to '*'
 
